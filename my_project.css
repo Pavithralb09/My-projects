@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #6b5b95;
+  margin-top: 20px;
+}
+
+.search-container {
+  margin-top: 50px;
+}
+
+.search-container input {
+  padding: 15px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid #6b5b95;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.search-container button {
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #6b5b95;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #9575cd;
+}
+
+.flower-info {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.flower-info h2 {
+  color: #6b5b95;
+}
+
+.flower-info p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.error-message {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+}
