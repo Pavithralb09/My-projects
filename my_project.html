@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Finder</title>
+  <link rel="stylesheet" href="./my_website.css">
+</head>
+<body>
+
+  <h1>🌸 Flower Finder 🌼</h1>
+
+  <div class="search-container">
+    <input type="text" id="flowerName" placeholder="Enter flower name (e.g., rose, tulip)">
+    <button onclick="searchFlower()">Search</button>
+  </div>
+
+  <div id="flowerDetails" class="flower-info" style="display:none;">
+    <h2 id="flowerTitle"></h2>
+    <p id="flowerDescription"></p>
+  </div>
+
+  <div id="errorMessage" class="error-message" style="display:none;">
+    Flower not found. Please try another flower name (e.g., rose, tulip, sunflower, daisy).
+  </div>
+
+  <script src="./my_website.js"></script>
+</body>
+</html>
